@@ -21,7 +21,7 @@ AddEventHandler("Kaito:closest", function()
             title = "KaitoCagoule",
             description = string.format("Le joueur %s [ID %s] a mis une cagoule sur %s [ID : %s]", playerName, source, targetName, najblizszy),
             footer = {
-                text = string.format("📅 %s", os.date("%d/%m/%Y | %X")),
+                text = string.format("ðŸ“… %s", os.date("%d/%m/%Y | %X")),
                 icon_url = nil
             }
         }
@@ -58,9 +58,9 @@ AddEventHandler("Kaito:zdejmij", function()
         },
         color = KaitoLogs.CouleurLogs,
         title = "KaitoCagoule",
-        description = string.format("Le joueur %s [ID : %s] a retiré la cagoule de %s [ID : %s]", playerName, source, targetName, najblizszy),
+        description = string.format("Le joueur %s [ID : %s] a retirÃ© la cagoule de %s [ID : %s]", playerName, source, targetName, najblizszy),
         footer = {
-            text = string.format("📅 %s", os.date("%d/%m/%Y | %X")),
+            text = string.format("ðŸ“… %s", os.date("%d/%m/%Y | %X")),
             icon_url = nil
         }
     }
